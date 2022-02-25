@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tsc && xcopy .\\src\\assets\\ .\\output\\ /Y && xcopy .\\src\\html\\ .\\output\\html\\ /Y"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

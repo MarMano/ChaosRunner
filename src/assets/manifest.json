@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Chaos Runner",
+    "version": "0.1",
+  
+    "description": "Perform random actions on your site",
+    "author": "Martin Manø",
+  
+    "devtools_page": "html/devtools.html",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs", 
+        "http://*/*",
+        "https://*/*"
+    ]
+  }
